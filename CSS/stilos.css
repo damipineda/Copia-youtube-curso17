@@ -52,20 +52,7 @@ nav{
   font-size: 1.5rem;
   margin-left: 20px;
 }
-/*
-.header_1 .ri-youtube-fill {
-  color: red;
-  font-size: 2.7rem;
-  margin-left: 20px;
-}
-.header_1 h4 {
-  color: #fff;
-  font-size: 30px;
-  font-family: "Roboto";
-  margin-top: 4px;
-  margin-left: 10px;
-}
-*/
+
 .header_1 img {
   width: 100px;
   height: 250px;
@@ -158,12 +145,13 @@ nav{
     display: flex;
     padding: 1rem;
     align-items: center;
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow-x: hidden;
+    white-space: nowrap;
+    overflow-y: auto;
     position: fixed;
     background-color: #212121;
     z-index: 1;
-    left: 200px;
+    left: 239px;
     top: 50px;
     width: calc(100% - 100px);
     height: 60px;
@@ -265,7 +253,8 @@ aside{
     padding-top: 0px;
     width: 240px;
     float: left;
-    overflow: hidden;
+    overflow: scroll;
+    max-height: fit-content;
     color: #fff;
     box-sizing: border-box;
     z-index: 1;
@@ -319,7 +308,7 @@ hr {
 .canal{
     font-size: 15px;
 }
-/**Scroll**/
+/*croll**/
 
 ::-webkit-scrollbar{
     width: 3px;
@@ -363,4 +352,15 @@ hr {
     border: none;
     border-radius: 100%;
   }
+  section.categorias{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  overflow: scroll;
+  position: absolute;
+  box-sizing: border-box;
+  left: 1rem;
+
+}
+
 } 
