@@ -151,7 +151,7 @@ nav{
     position: fixed;
     background-color: #212121;
     z-index: 1;
-    left: 239px;
+    left: 200px;
     top: 50px;
     width: calc(100% - 100px);
     height: 60px;
